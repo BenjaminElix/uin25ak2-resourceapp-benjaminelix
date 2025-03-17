@@ -11,7 +11,7 @@ function Resources({ category, children }) {
   return (
     <section id="resources-list">
       {children}{" "}
-      {/* Rendrer PageTitle her, men var bare i veien så fjernet den. var lettere og bare display den*/}
+      {/* Rendrer PageTitle her, men var bare i veien så fjernet den. var lettere og bare displaye categorien istede*/}
       <h2>{displayCategory} Resources</h2>
       <ul>
         {filteredResources.length > 0 ? (
