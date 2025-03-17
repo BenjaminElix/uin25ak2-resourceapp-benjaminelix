@@ -23,7 +23,9 @@ function Resources({ category, children }) {
             </li>
           ))
         ) : (
-          <li>Ingen ressurser funnet for denne kategorien.</li>
+          <li>
+            Ingen ressurser funnet for denne kategorien.
+          </li> /*Viser melding hvis ingen ressurser matches for den valgte kategorien */
         )}
       </ul>
     </section>
